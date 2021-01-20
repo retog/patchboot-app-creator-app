@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "run:browser": "open-cli \"http://localhost:8080\" ",
-    "run:server": "http-server . -p 8080",
+    "run:server": "http-server . -p 8082",
     "run": "run-p run:*",
     "deploy-app": "patchboot-install FeedApp.js 'Feed App' 'An app deployed with patchboot-install'"
   },
